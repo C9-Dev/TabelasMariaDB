@@ -1,0 +1,6 @@
+CREATE TABLE produtos (
+IDProduto INT NOT NULL,
+NomeProduto VARCHAR(50) NOT NULL,
+PrecoUnitario DECIMAL(5,2) NOT NULL,
+CONSTRAINT PK_Produtos PRIMARY KEY (IDProduto)
+);

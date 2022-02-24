@@ -1,0 +1,7 @@
+CREATE TABLE clientes (
+IDCliente INT NOT NULL,
+NomeCliente VARCHAR(50) NOT NULL,
+CPFCliente VARCHAR(14) NOT NULL,
+CONSTRAINT PK_Clientes PRIMARY KEY (IDCliente),
+CONSTRAINT UN_Clientes UNIQUE (CPFCliente)
+);
